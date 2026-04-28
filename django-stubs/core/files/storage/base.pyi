@@ -1,5 +1,6 @@
 from datetime import datetime
 from typing import IO, Any
+from collections import abc
 
 from django.core.files.base import File
 from django.utils._os import _PathCompatible
